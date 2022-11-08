@@ -47,30 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyANKecGmDcyrMtVP3Ym1egBuHylb79ugZo',
-    appId: '1:998526436166:web:1cc37250fd27cc0e251b47',
-    messagingSenderId: '998526436166',
-    projectId: 'flutter-cloud-firestore-3f80d',
-    authDomain: 'flutter-cloud-firestore-3f80d.firebaseapp.com',
-    storageBucket: 'flutter-cloud-firestore-3f80d.appspot.com',
-    measurementId: 'G-RRER0B7NKF',
+    apiKey: 'AIzaSyA6EBn3dDwuZrB8cdQ4gZgFdzSPoWtYxQA',
+    appId: '1:933267112141:web:d6695e40a55870f94f2984',
+    messagingSenderId: '933267112141',
+    projectId: 'flutter-cloud-firestore-28135',
+    authDomain: 'flutter-cloud-firestore-28135.firebaseapp.com',
+    storageBucket: 'flutter-cloud-firestore-28135.appspot.com',
+    measurementId: 'G-9ZM0T26M9R',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDzxHyCUvYFSIc-7TJs_2_rbhSyrBAk9Go',
-    appId: '1:998526436166:android:55894effc779e749251b47',
-    messagingSenderId: '998526436166',
-    projectId: 'flutter-cloud-firestore-3f80d',
-    storageBucket: 'flutter-cloud-firestore-3f80d.appspot.com',
+    apiKey: 'AIzaSyDqDybQQlF-JTLIzJvllApN8UcY7hy-Vn0',
+    appId: '1:933267112141:android:d0468b657337b5a94f2984',
+    messagingSenderId: '933267112141',
+    projectId: 'flutter-cloud-firestore-28135',
+    storageBucket: 'flutter-cloud-firestore-28135.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyApYqb5PoM32y56r81nWFq5cnJLuG8N3j0',
-    appId: '1:998526436166:ios:ae979aa4503926e8251b47',
-    messagingSenderId: '998526436166',
-    projectId: 'flutter-cloud-firestore-3f80d',
-    storageBucket: 'flutter-cloud-firestore-3f80d.appspot.com',
-    iosClientId: '998526436166-p8iv6if22utuvosnv6js6k1homck5g32.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAJXwgoYBeNBO-7e_1GwHT4UdMjtp-ZiT8',
+    appId: '1:933267112141:ios:838243629c69146c4f2984',
+    messagingSenderId: '933267112141',
+    projectId: 'flutter-cloud-firestore-28135',
+    storageBucket: 'flutter-cloud-firestore-28135.appspot.com',
+    iosClientId: '933267112141-4j0bhfl5movetbng7aa0t65m5m7eiu6c.apps.googleusercontent.com',
     iosBundleId: 'br.com.alura.flutterCloudFirestore',
   );
 }
