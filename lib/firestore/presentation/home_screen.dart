@@ -40,39 +40,44 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: TextStyle(fontSize: 18),
               ),
             )
-          : ListView(
-              children: List.generate(
-                listListins.length,
-                (index) {
-                  Listin model = listListins[index];
-                  return Dismissible(
-                    key: ValueKey<Listin>(model),
-                    direction: DismissDirection.endToStart,
-                    background: Container(
-                      color: Colors.red,
-                      alignment: Alignment.centerRight,
-                      padding: const EdgeInsets.only(right: 8.0),
-                      child: const Icon(
-                        Icons.delete,
-                        color: Colors.white,
+          : RefreshIndicator(
+              onRefresh: () {
+                return refresh();
+              },
+              child: ListView(
+                children: List.generate(
+                  listListins.length,
+                  (index) {
+                    Listin model = listListins[index];
+                    return Dismissible(
+                      key: ValueKey<Listin>(model),
+                      direction: DismissDirection.endToStart,
+                      background: Container(
+                        color: Colors.red,
+                        alignment: Alignment.centerRight,
+                        padding: const EdgeInsets.only(right: 8.0),
+                        child: const Icon(
+                          Icons.delete,
+                          color: Colors.white,
+                        ),
                       ),
-                    ),
-                    onDismissed: (direction) {
-                      remove(model);
-                    },
-                    child: ListTile(
-                      onTap: () {
-                        print("clicou");
+                      onDismissed: (direction) {
+                        remove(model);
                       },
-                      onLongPress: () {
-                        showFormModal(model: model);
-                      },
-                      leading: const Icon(Icons.list_alt_rounded),
-                      title: Text(model.name),
-                      subtitle: Text(model.id),
-                    ),
-                  );
-                },
+                      child: ListTile(
+                        onTap: () {
+                          print("clicou");
+                        },
+                        onLongPress: () {
+                          showFormModal(model: model);
+                        },
+                        leading: const Icon(Icons.list_alt_rounded),
+                        title: Text(model.name),
+                        subtitle: Text(model.id),
+                      ),
+                    );
+                  },
+                ),
               ),
             ),
     );
