@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_cloud_firestore/firestore/presentation/listin_screen.dart';
 import 'package:uuid/uuid.dart';
 import '../models/listin.dart';
 
@@ -66,7 +67,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                       child: ListTile(
                         onTap: () {
-                          print("clicou");
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) {
+                            return ListinScreen(listin: model);
+                          }));
                         },
                         onLongPress: () {
                           showFormModal(model: model);
