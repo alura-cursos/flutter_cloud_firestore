@@ -24,7 +24,7 @@ Aplicação para gerenciar Lista de Compras colaborativas.
 
 ## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto]() ou [baixá-lo]().
+Você pode [acessar o código fonte do projeto](https://github.com/alura-cursos/flutter_cloud_firestore/tree/aula05) ou [baixá-lo](https://github.com/alura-cursos/flutter_cloud_firestore/archive/refs/heads/aula05.zip).
 
 ## 🛠️ Abrir e rodar o projeto
 
