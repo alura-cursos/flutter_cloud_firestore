@@ -10,7 +10,7 @@ Aplicação para gerenciar Lista de Compras colaborativas.
 
 - Quando estamos fazendo feira com mais alguém, é comum nos separarmos para pegar os itens de forma mais eficiente. Mas às vezes é difícil saber o que a pessoa já pegou.
 
-![aluvery-dynamic-description](https://github.com/alura-cursos/flutter_cloud_firestore/raw/main/gif.png)
+![gif-flutter-cloud-firestore](https://github.com/alura-cursos/flutter_cloud_firestore/raw/main/gif.gif)
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
